@@ -108,8 +108,8 @@ if __name__ == "__main__":
         elif 'open code' in query:
             codePath = "C:\\Users\\user\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(codePath)
-        elif 'news' in query:
-            pass
+        # elif 'news' in query:
+        #     pass
 
         elif "open" in query:
             query = query.replace("open","")
